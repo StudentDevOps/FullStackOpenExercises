@@ -19,17 +19,3 @@ note over selain:
 selain suorittaa tapahtumankäsittelijän
 joka renderöi muistiinpanot näytölle
 end note
-
-note over selain:
-lisätään muistiinpanoihin merkintä
-muokkaamalla paikallista html-koodia
-"Uusi merkintä"
-end note
-
-selain->palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new-note-spa
-palvelin-->selain: [{ content: "Uusi merkintä", date: "2019-01-01" }, ...]
-
-note over selain:
-selain suorittaa tapahtumankäsittelijän
-joka renderöi muistiinpanot näytölle
-end note
